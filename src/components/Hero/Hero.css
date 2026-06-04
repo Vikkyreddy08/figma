@@ -1,0 +1,175 @@
+.hero {
+  position: relative;
+  padding: 30px 0 70px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.deco-left {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  z-index: 0;
+  opacity: 0.8;
+}
+.s-curve {
+  opacity: 1;
+}
+.deco-pink-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(255,145,170,0.35);
+  left: -20px;
+  top: 50px;
+}
+
+.deco-right {
+  position: absolute;
+  right: 60px;
+  top: 120px;
+  z-index: 0;
+  opacity: 0.8;
+}
+.deco-square {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #6a6fd8;
+  transform: rotate(15deg);
+}
+.deco-quarter-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #6a6fd8;
+  border-radius: 0 0 0 80px;
+  top: 0;
+  left: 0;
+  transform: rotate(15deg);
+}
+
+.hero-main {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.hero-title {
+  font-size: clamp(32px, 6vw, 64px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 3;
+}
+
+.highlight-yellow {
+  background: rgba(255,210,120,0.5);
+  padding: 0 6px;
+}
+.highlight-pink {
+  background: rgba(255,170,187,0.6);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.highlight-green {
+  background: rgba(165,238,169,0.6);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.hero-text {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0 auto 48px;
+  padding: 0 16px;
+}
+
+/* Team Avatars */
+.team-avatars {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 260px;
+  padding: 0 16px;
+}
+.avatar {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.15);
+  transition: transform 0.25s;
+}
+.avatar:hover { transform: scale(1.08); }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+.avatar1 { width: 95px; height: 95px; left: 40px; bottom: 30px; }
+.avatar2 { width: 85px; height: 85px; left: 150px; top: 50px; }
+.avatar3 { width: 105px; height: 105px; left: 320px; top: 20px; }
+.avatar4 { width: 90px; height: 90px; left: 460px; bottom: 20px; }
+.avatar5 { width: 110px; height: 110px; right: 290px; top: 30px; }
+.avatar6 { width: 115px; height: 115px; right: 110px; top: 5px; }
+.avatar7 { width: 100px; height: 100px; right: 15px; bottom: 25px; }
+
+@media (max-width: 992px) {
+  .deco-left, .deco-right {
+    opacity: 0.6;
+    transform: scale(0.8);
+  }
+  .team-avatars {
+    height: 220px;
+    max-width: 700px;
+  }
+  .avatar1 { width: 75px; height:75px; left: 20px; }
+  .avatar2 { width:65px; height:65px; left:100px; }
+  .avatar3 { width:85px; height:85px; left:220px; }
+  .avatar4 { width:70px; height:70px; left:340px; }
+  .avatar5 { width:85px; height:85px; right:210px; }
+  .avatar6 { width:100px; height:100px; right:70px; }
+  .avatar7 { width:75px; height:75px; right:10px; }
+}
+
+@media (max-width: 768px) {
+  .deco-left, .deco-right {
+    display: none;
+  }
+  .hero { padding-bottom: 50px; }
+  .hero-title {
+    font-size: clamp(28px, 8vw, 48px);
+    margin-bottom: 18px;
+  }
+  .hero-text {
+    font-size: 12px;
+    max-width: 400px;
+  }
+  .team-avatars {
+    height: 180px;
+    max-width: 500px;
+  }
+  .avatar1 { width: 55px; height:55px; left: 5px; }
+  .avatar2 { width:48px; height:48px; left:65px; }
+  .avatar3 { width:65px; height:65px; left:140px; }
+  .avatar4 { width:52px; height:52px; left:230px; }
+  .avatar5 { width:65px; height:65px; right:130px; }
+  .avatar6 { width:75px; height:75px; right:45px; }
+  .avatar7 { width:50px; height:50px; right:0; }
+}
+
+@media (max-width: 576px) {
+  .team-avatars {
+    height: 150px;
+    max-width: 340px;
+  }
+  .avatar1 { width: 45px; height:45px; left: 0; }
+  .avatar2 { width:40px; height:40px; left:50px; }
+  .avatar3 { width:55px; height:55px; left:105px; }
+  .avatar4 { width:42px; height:42px; left:175px; }
+  .avatar5 { width:55px; height:55px; right:85px; }
+  .avatar6 { width:60px; height:60px; right:25px; }
+  .avatar7 { width:42px; height:42px; right:-5px; }
+}

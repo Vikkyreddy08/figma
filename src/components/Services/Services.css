@@ -1,0 +1,121 @@
+.services {
+  padding: 60px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.services-wrapper {
+  position: relative;
+}
+
+.services-title {
+  font-size: clamp(28px, 5vw, 52px);
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 50px;
+  padding: 0 16px;
+}
+
+.highlight-green {
+  background: rgba(165,238,169,0.6);
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.highlight-underline {
+  position: relative;
+}
+.highlight-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 9px;
+  background: rgba(255,210,120,0.5);
+  border-radius: 2px;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 0 16px;
+}
+.service-item {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: center;
+  gap: 28px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.service-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+.service-number {
+  font-family: 'Gerbil', serif;
+  font-size: 16px;
+  color: #666;
+  margin-top: 3px;
+}
+.service-small-text {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.6;
+}
+.service-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-content h3 {
+  font-size: clamp(22px, 4vw, 34px);
+  font-weight: 400;
+}
+.service-arrow {
+  transition: transform 0.25s;
+}
+.service-item:hover .service-arrow {
+  transform: translateX(8px);
+}
+
+.services-deco-curve {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  z-index: 0;
+  opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  .service-item {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .service-left {
+    margin-bottom: 8px;
+  }
+  .services-deco-curve {
+    display: none;
+  }
+  .service-content h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .services {
+    padding: 40px 0;
+  }
+  .services-title {
+    margin-bottom: 35px;
+  }
+  .service-content h3 {
+    font-size: 20px;
+  }
+  .service-small-text {
+    font-size: 11px;
+  }
+}
