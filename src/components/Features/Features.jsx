@@ -7,10 +7,11 @@ const Features = () => {
         
         <div className="features-wrapper">
           
-          {/* ONLY ONE pink connecting curve between the two images */}
+          {/* Two pink connecting curves between the two images, like Figma */}
           <div className="deco-s-curve">
-            <svg width="100%" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="1100" viewBox="0 0 1000 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M380 200C520 260, 650 340, 700 450" stroke="rgba(255,145,170,0.75)" strokeWidth="3" strokeLinecap="round" fill="none"/>
+              <path d="M400 170C540 230, 670 310, 730 420" stroke="rgba(255,145,170,0.55)" strokeWidth="3" strokeLinecap="round" fill="none"/>
             </svg>
           </div>
           
