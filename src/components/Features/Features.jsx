@@ -21,7 +21,7 @@ const Features = () => {
               <h2 className="feature-1-title">Tomorrow should<br/>be better than today</h2>
               <p className="feature-1-desc">
                 We are a team of strategists, designers communicators, researchers.
-                Together, we believe that progress only happens when you refuse
+                Togeather, we belive that progress only happens when you refuse
                 to play things safe.
               </p>
               <a href="#" className="read-more-btn">

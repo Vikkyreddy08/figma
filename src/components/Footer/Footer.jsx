@@ -31,7 +31,7 @@ const Footer = () => {
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Studio</a></li>
-              <li><a href="#">Services</a></li>
+              <li><a href="#">Service</a></li>
               <li><a href="#">Blog</a></li>
             </ul>
           </div>
@@ -41,7 +41,7 @@ const Footer = () => {
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms & Conditions</a></li>
               <li><a href="#">Explore</a></li>
-              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Accesibility</a></li>
             </ul>
           </div>
           <div className="footer-col">
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
         
         <div className="copyright">
-          <p>©2024 Elementum. All rights reserved.</p>
+          <p>©2023 Elementum. All rights reserved</p>
         </div>
         
       </div>

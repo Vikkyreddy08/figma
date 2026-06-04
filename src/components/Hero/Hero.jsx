@@ -26,9 +26,8 @@ const Hero = () => {
             the <span className="highlight-green">status Quo</span> with
           </h1>
           <p className="hero-text">
-            We are a team of strategists, designers communicators, researchers.
-            Together, we believe that progress only happens when you refuse to
-            play things safe.
+            We are a team of strategists, designers communicators, researchers. Togeather,
+            we belive that progress only hghappens when you refuse to play things safe.
           </p>
           
           {/* Team Avatars */}

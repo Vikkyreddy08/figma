@@ -30,9 +30,9 @@ const Testimonials = () => {
           <div className="testimonial-card">
             <div className="quote-left">“</div>
             <p className="testimonial-text">
-              Elementum delivered the site within the timeline as they requested.
-              In the end, the client found a 50% increase in traffic within days since its launch.
-              They also had an impressive ability to use technologies that the company hasn't used,
+              Elementum delivered the site with inthe timeline as they requested.
+              Inthe end, the client found a 50% increase in traffic with in days since its launch.
+              They also had an impressive ability to use technologies that the company hasn`t used,
               which have also proved to be easy to use and reliable.
             </p>
             <div className="quote-right">”</div>
