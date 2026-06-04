@@ -9,9 +9,9 @@ const Features = () => {
           
           {/* Pink connecting curves exactly like Figma - connects 2nd img to 1st img and goes down */}
           <div className="deco-s-curve">
-            <svg width="100%" height="1200" viewBox="0 0 1000 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="1400" viewBox="0 0 1000 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
               {/* Single pink line from 2nd image up to 1st image and then down to Services */}
-              <path d="M300 540C460 540, 620 440, 660 240C700 140, 740 180, 720 340C700 500, 620 580, 520 840" stroke="rgba(255,145,170,0.75)" strokeWidth="3" strokeLinecap="round" fill="none"/>
+              <path d="M320 560C480 560, 640 460, 680 260C720 160, 760 200, 740 360C720 520, 660 640, 580 920" stroke="rgba(255,145,170,0.75)" strokeWidth="3" strokeLinecap="round" fill="none"/>
             </svg>
           </div>
           

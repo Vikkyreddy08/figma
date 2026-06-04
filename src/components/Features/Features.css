@@ -1,6 +1,8 @@
 .features-section {
   position: relative;
   padding: 70px 0 80px;
+  overflow: visible;
+  z-index: 1;
 }
 .features-wrapper {
   position: relative;
@@ -14,7 +16,7 @@
   top: -20px;
   right: -30px;
   width: 110%;
-  height: 120%;
+  height: 200%;
   z-index: 0;
   pointer-events: none;
   opacity: 0.9;
