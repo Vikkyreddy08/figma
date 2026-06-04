@@ -83,8 +83,8 @@
 
 .services-deco-curve {
   position: absolute;
-  top: 0;
-  right: -60px;
+  top: -20px;
+  right: -80px;
   z-index: 0;
   opacity: 0.8;
 }

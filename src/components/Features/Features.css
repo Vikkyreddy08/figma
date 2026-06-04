@@ -6,23 +6,15 @@
   position: relative;
 }
 
-/* Decorative Green Border */
-.features-wrapper::before {
-  content: '';
-  position: absolute;
-  inset: -15px;
-  border: 2px solid #2bb673;
-  z-index: 0;
-  pointer-events: none;
-}
+
 
 /* Decorative Pink S-curve */
 .deco-s-curve {
   position: absolute;
-  top: -50px;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: -20px;
+  right: -30px;
+  width: 110%;
+  height: 120%;
   z-index: 0;
   pointer-events: none;
   opacity: 0.9;
@@ -36,7 +28,7 @@
   align-items: center;
   padding: 35px 0;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 .feature-1-text {
   padding-left: 15px;
@@ -97,7 +89,7 @@
   align-items: center;
   padding: 35px 0;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 .feature-2-img {
   position: relative;
