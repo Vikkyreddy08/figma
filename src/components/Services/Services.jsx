@@ -27,10 +27,10 @@ const Services = () => {
       <div className="container">
         <div className="services-wrapper">
           
-          {/* Pink Wavy Curve at Top Right */}
+          {/* Pink Wavy Curve like Figma */}
           <div className="services-deco-curve">
-            <svg width="500" height="320" viewBox="0 0 500 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M60 280C180 160, 330 190, 460 120" stroke="rgba(255,145,170,0.75)" strokeWidth="3" strokeLinecap="round" fill="none"/>
+            <svg width="600" height="350" viewBox="0 0 600 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M80 300C200 180, 350 210, 540 140" stroke="rgba(255,145,170,0.75)" strokeWidth="3" strokeLinecap="round" fill="none"/>
             </svg>
           </div>
           
