@@ -1,11 +1,22 @@
 .services {
   padding: 60px 0;
   position: relative;
-  z-index: 20;
+  z-index: 5;
 }
 
 .services-wrapper {
   position: relative;
+  z-index: 10;
+}
+
+.services-title {
+  position: relative;
+  z-index: 20;
+}
+
+.services-list {
+  position: relative;
+  z-index: 20;
 }
 
 .services-title {
